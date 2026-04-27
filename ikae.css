@@ -1,3 +1,18 @@
-p {
-    font-family: "Times New Roman";
+body {
+    background-color: #EBDE97;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #2C1A0E;
+}
+
+.section {
+    overflow: hidden;      /* contains the float so it doesn't bleed into next section */
+    margin-bottom: 60px;   /* space between sections */
+    margin-left: 80px;     /* your nudge from the left */
+}
+
+.right-image {
+    float: right;
+    margin-left: 50px;
+    margin-right: 250px;
+    width: 300px;          /* adjust to however big you want the image */
 }
